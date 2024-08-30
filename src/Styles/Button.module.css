@@ -1,0 +1,23 @@
+.button {
+  font-size: var(--s-3);
+  border: none;
+  padding: var(--s-2) var(--s-5);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+}
+
+.button:visited {
+  color: initial;
+}
+
+.primary {
+  background-color: var(--btn-primary);
+  color: var(--primary-color);
+}
+
+.secondary {
+  background-color: var(--primary-color);
+  border: 1px solid var(--btn-primary);
+}

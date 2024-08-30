@@ -1,0 +1,22 @@
+.div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: var(--s-2);
+  border: 1px solid var(--accent-color);
+  padding: var(--s-6) var(--s-4);
+  border-radius: var(--s-1);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.div h1 {
+  grid-area: 1 / 1 / 2 / 3;
+  font-size: var(--s-6);
+  letter-spacing: 1px;
+}
+
+.div p {
+  grid-area: 2 / 1 / 2 / 3;
+  font-size: var(--s-4);
+  letter-spacing: 1px;
+}

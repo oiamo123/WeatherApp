@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+:root {
+  --s-05: 3px;
+  --s-1: 6px;
+  --s-2: 12px;
+  --s-3: 15.5px;
+  --s-4: 18px;
+  --s-5: 24px;
+  --s-6: 32px;
+  --s-7: 48px;
+  --s-8: 56px;
+  --s-9: 64px;
+  --s-10: 72px;
+  --s-11: 80px;
+  --s-12: 6.5rem;
+  --s-13: 8rem;
+  --s-15: 10rem;
+  --s-20: 15rem;
+  --s-25: 20rem;
+  --s-30: 25rem;
+  --s-50: 50%;
+  --s-75: 75%;
+  --s-100: 100%;
+  --s-2\4w: 50vw;
+  --s-vw: 100vw;
+  --s-vh: 100vh;
+  --s-2\4v: 50vh;
+
+  --primary-color: #f8f9fa;
+  --secondary-color: #457b9d;
+  --header-color: #457b9d;
+  --font-color: #2d2d2d;
+  --accent-color: #76abae;
+  --btn-primary: #5d9ca7;
+  --btn-hover: #1d3557;
+  --btn-fonthover: #ffffff;
+  --card: #ffffff;
+}
+
+[data-theme="dark"] {
+  --primary-color: #121417;
+  --secondary-color: #1d2025;
+  --header-color: #1d2025;
+  --font-color: #e0e0e0;
+  --accent-color: #76abae;
+  --btn-primary: #2a4a62;
+  --btn-hover: #457b9d;
+  --btn-fonthover: #ffffff;
+  --card: #1d2025;
+}
+
+*,
+body {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--primary-color);
+}

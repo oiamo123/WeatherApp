@@ -1,0 +1,18 @@
+.label {
+  font-size: var(--s-4);
+}
+
+.input {
+  font-size: var(--s-4);
+  border: none;
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.input:active {
+  border: none;
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,18 @@
+nav {
+  box-sizing: border-box;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  bottom: 0;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--s-2) var(--s-5);
+  padding-bottom: var(--s-7);
+}
+
+svg {
+  color: var(--font-color);
+  height: var(--s-5);
+  width: var(--s-5);
+}
