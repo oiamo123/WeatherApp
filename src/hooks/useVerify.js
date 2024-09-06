@@ -1,4 +1,4 @@
-const verify = async function () {
+const useVerify = async function () {
   const response = await fetch("http://localhost:3000/account/authenticated");
   const data = await response.json();
 
@@ -9,4 +9,4 @@ const verify = async function () {
   }
 };
 
-module.exports = verify;
+module.exports = useVerify;

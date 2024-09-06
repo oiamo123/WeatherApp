@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "../Styles/SmallCard.module.css";
-import fonts from "../Styles/Fonts.module.css";
+import styles from "./SmallCard.module.css";
+import fonts from "../../assets/Fonts.module.css";
 
 function SmallCard(props) {
   return (

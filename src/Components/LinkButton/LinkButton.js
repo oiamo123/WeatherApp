@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "../Styles/Button.module.css";
-import fonts from "../Styles/Fonts.module.css";
+import styles from "./LinkButton.module.css";
+import fonts from "../../assets/Fonts.module.css";
 
 function LinkButton(props) {
   return (

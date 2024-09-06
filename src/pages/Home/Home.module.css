@@ -1,9 +1,4 @@
 .article {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(4, auto);
-  row-gap: var(--s-7);
-  column-gap: var(--s-4);
   padding: var(--s-10) var(--s-5);
   background-color: #1b3b6f;
   color: white;

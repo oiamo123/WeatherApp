@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import { useState, useEffect } from "react";
-import Account from "./pages/Account.js";
-import Home from "./pages/Home.js";
-import Login from "./pages/Login.js";
-import Logout from "./pages/Logout.js";
-import Register from "./pages/Register.js";
-import Verify from "./pages/Verify.js";
-import About from "./pages/About.js";
+import Account from "./pages/Account/Account.js";
+import Home from "./pages/Home/Home.js";
+import Login from "./pages/Login/Login.js";
+import Logout from "./pages/Logout/Logout.js";
+import Register from "./pages/Register/Register.js";
+import Verify from "./pages/Verify/Verify.js";
+import About from "./pages/About/About.js";
 
 function App() {
   // const [theme, setTheme] = useState("light");

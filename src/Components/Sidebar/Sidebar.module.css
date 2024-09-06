@@ -1,0 +1,45 @@
+.div {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 80vw;
+  transition: right 0.3s ease-in-out;
+  border-radius: var(--s-5) 0 0 var(--s-5);
+  padding: var(--s-5);
+  gap: var(--s-3);
+}
+
+.buttons {
+  display: flex;
+  gap: var(--s-1);
+  align-self: flex-start;
+}
+
+.div svg {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.hidden {
+  right: -100%;
+}
+
+.div button {
+  background-color: transparent;
+  border: none;
+  align-self: flex-start;
+  font-size: var(--s-4);
+  letter-spacing: 1px;
+}
+
+.input {
+  position: absolute;
+  top: 0;
+}
+
+.input-hidden {
+  top: -100%;
+}

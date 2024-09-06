@@ -1,18 +1,18 @@
 nav {
+  position: absolute;
+  top: 0;
+  left: 0;
   box-sizing: border-box;
-  position: fixed;
   display: flex;
   flex-direction: row;
-  bottom: 0;
   width: 100vw;
   align-items: center;
   justify-content: space-between;
-  padding: var(--s-2) var(--s-5);
-  padding-bottom: var(--s-7);
+  padding: var(--s-6) var(--s-5);
 }
 
 svg {
-  color: var(--font-color);
+  color: white;
   height: var(--s-5);
   width: var(--s-5);
 }

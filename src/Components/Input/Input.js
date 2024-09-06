@@ -1,6 +1,6 @@
 import React from "react";
-import fonts from "../Styles/Fonts.module.css";
-import styles from "../Styles/Input.module.css";
+import fonts from "../../assets/Fonts.module.css";
+import styles from "./Input.module.css";
 
 function Input(props) {
   return (

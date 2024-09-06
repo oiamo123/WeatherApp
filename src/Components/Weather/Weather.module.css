@@ -4,6 +4,12 @@
   gap: var(--s-5);
 }
 
+.conditions {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--s-2);
+}
+
 .hourly {
   display: flex;
   flex-direction: row;
@@ -17,7 +23,8 @@
   gap: var(--s-2);
 }
 
-.div > aside {
+.hourly,
+.daily {
   padding: var(--s-2);
   background-color: rgba(0, 0, 0, 0.15);
   border-radius: var(--s-3);

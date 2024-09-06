@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "../Styles/HourlyWeather.module.css";
-import fonts from "../Styles/Fonts.module.css";
+import styles from "./HourlyWeather.module.css";
+import fonts from "../../assets/Fonts.module.css";
 import { IoWater } from "react-icons/io5";
 
 function HourlyWeather(props) {

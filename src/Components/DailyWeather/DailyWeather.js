@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "../Styles/DailyWeather.module.css";
-import fonts from "../Styles/Fonts.module.css";
+import styles from "./DailyWeather.module.css";
+import fonts from "../../assets/Fonts.module.css";
 import { IoWater } from "react-icons/io5";
 
 function DailyWeather(props) {

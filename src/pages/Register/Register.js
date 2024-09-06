@@ -1,8 +1,8 @@
 import React from "react";
-import { useEffect, useState } from "react";
-import LinkButton from "../Components/LinkButton.js";
-import styles from "../Styles/Register.module.css";
-import Input from "../Components/Input.js";
+import { useState } from "react";
+import LinkButton from "../../Components/LinkButton/LinkButton.js";
+import styles from "./Register.module.css";
+import Input from "../../Components/Input/Input.js";
 
 function Register(props) {
   const [response, setResponse] = useState(null);
